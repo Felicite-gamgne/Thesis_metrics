@@ -10,7 +10,7 @@ init<-function(dataframe,dataframe_comp) {
     aucs_com <- dataframe
     aucs_df <- dataframe_comp
 }
-
+ 
 count_occurence_in_column <- function(occurence_value,column) {
   occurences<-table(unlist(column))
   as.numeric(occurences[occurence_value])
