@@ -328,6 +328,7 @@ get_rmc_cidc <- function(cid_value){
 
     }
 
+    
     node_dk_count = nrow(unique(actor_dk["actor"]))
     rmc_cidi = node_dk_count/(ndim * nc)
     rmc_cidi
